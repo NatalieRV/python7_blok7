@@ -10,4 +10,4 @@ def print_operation_table(operation, num_rows, num_columns):
 
 num_x = int(input('Введите количество строк: '))
 num_y = int(input('Введите количество столбцов: '))
-print_operation_table(lambda x, y: x + y, num_x, num_y)
+print_operation_table(lambda x, y: x * y, num_x, num_y)
